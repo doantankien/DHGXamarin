@@ -22,7 +22,7 @@ namespace HelloXamlSample
 
             button.Clicked += async (sender, args) =>
             {
-                await Navigation.PushAsync(new HelloXamlPage());
+                await Navigation.PushAsync(new XamlPlusCodePage());
             };
 
             Content = button;
