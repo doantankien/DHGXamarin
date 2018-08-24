@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4E8F39B5-62F7-490F-9710-B90E595D8CF6}</ProjectGuid>
+    <ProjectGuid>{DAF60D30-B2F5-40C7-95B3-DE2C84B9E0D5}</ProjectGuid>
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TemplateGuid>{c9e5eea5-ca05-42a1-839b-61506e0a37df}</TemplateGuid>
     <OutputType>Library</OutputType>
@@ -93,7 +93,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\XamlSamples\XamlSamples.csproj">
-      <Project>{7DE15A9C-0268-4469-AC3D-6EA7DAE68BD9}</Project>
+      <Project>{6B536DBD-A28A-4942-ABC7-3BDC807CBA01}</Project>
       <Name>XamlSamples</Name>
     </ProjectReference>
   </ItemGroup>
