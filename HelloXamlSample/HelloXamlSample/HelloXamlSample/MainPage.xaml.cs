@@ -12,6 +12,20 @@ namespace HelloXamlSample
         public MainPage()
         {
             InitializeComponent();
+
+            Button button = new Button
+            {
+                Text = "Navigate!",
+                VerticalOptions = LayoutOptions.Center,
+                HorizontalOptions = LayoutOptions.Center
+            };
+
+            button.Clicked += async (sender, args) =>
+            {
+                await Navigation.PushAsync(new HelloXamlPage());
+            };
+
+            Content = button;
         }
     }
 }
